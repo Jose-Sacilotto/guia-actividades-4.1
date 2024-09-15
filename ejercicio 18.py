@@ -1,0 +1,5 @@
+#Calcular la velocidad de un móvil que se desplaza con velocidad constante conociendo el espacio recorrido y el tiempo empleado en recorrerle (los datos serán leídos al comenzar el programa)
+recorrido=float(input("Ingrese el recorrido en km: "))
+tiempo=float(input("Ingrese el tiempo: "))
+velocidad=int(recorrido/tiempo)
+print(f"la velocidad de el movil es de: {velocidad}km/h")
